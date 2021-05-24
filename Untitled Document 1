@@ -1,0 +1,25 @@
+Create Table Peruanos (DNI(int),nombre(char[20]),apellido(char[20]),edad(int),fecha_nacimiento(date));
+
+
+
+for(i =0 ; i<20000; i++ ) Insert Into Peruanos(DNI,nombre,apellido,edad,fecha) Values (11111111+i, Nombre+(11111111+i),Apellido+(11111111+i),RANDOM(1-100),RANDOMDATE(01/01/1970-31/12/1990));
+
+
+Insert Into Peruanos (DNI,nombre,apellido,edad,fecha) Values 11111111,Nombre11111111,Apellido11111111,20,12-4-1970);
+
+Select * From Peruanos;
+
+
+Remove Peruanos Where 20;
+
+Select (edad) From Peruanos;
+
+Remove Peruanos Where 11131111;
+
+Select (DNI) From Peruanos;
+
+Update Peruanos Where 21 AS 199;
+
+Select (edad) From Peruanos;
+
+

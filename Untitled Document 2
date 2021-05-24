@@ -1,0 +1,33 @@
+/*
+    string sql1;
+        getline(cin, sql1);
+        string consulta="for(i =0 ; i<20000; i++ ) Insert Into Peruanos(DNI,nombre,apellido,edad,fecha) Values (11111111+i, Nombre+(11111111+i),Apellido+(11111111+i),RANDOM(1-100),RANDOMDATE(01/01/1970-31/12/1990));";
+        string ert=consulta.substr(0,3);
+        if (ert=="for"){
+            int dni=11111111;
+          for(int i =0 ; i<20000 ; i++ ) {
+              vector<string> consul;
+              dni++;
+              string a1= to_string(dni);
+              consul.push_back(a1);
+              string n1="Nombre"+a1;
+              consul.push_back(n1);
+              string d1="Apellido"+a1;
+              consul.push_back(d1);
+              int ed=generadorNumAleatorio(100);
+              string ed1=to_string(ed);
+              consul.push_back(ed1);
+              int di=generadorNumAleatorio(28);
+              string di1=to_string(di);
+              int me=generadorNumAleatorio(12);
+              string me1=to_string(me);
+              int ao=generadorNumAleatorio(20);
+              ao+=1970;
+              string ao1=to_string(ao);
+              string date=di1+"-"+me1+"-"+ao1;
+              consul.push_back(date);
+              insert(&tab,consul);
+          }
+        }
+    */
+

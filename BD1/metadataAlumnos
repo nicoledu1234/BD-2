@@ -1,0 +1,4 @@
+Alumnos
+2
+id , int
+nombre , char[20]
